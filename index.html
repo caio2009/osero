@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Osero</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+    <div>
+      <div id="boardContainer"></div>
+
+      <div class="alert">Jogada Inválida!</div>
+    </div>
+
+    <div>
+      <div id="matchInfoContainer">
+        <div class="playerInfo">
+          <h1>Jogador 1 (Preto)</h1>
+          <br>
+          <p>Peças: <span id="player1Score"></span></p>
+        </div>
+
+        <hr />
+
+        <div class="playerInfo">
+          <h1>Jogador 2 (Branco)</h1>
+          <br>
+          <p>Peças: <span id="player2Score"></span></p>
+        </div>
+      </div>
+
+      <div id="actionsContainer">
+        <button id="forfeitButton" type="button">Passar a Vez</button>
+        <button id="restartButton" type="button">Reiniciar Jogo</button>
+      </div>
+    </div>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
